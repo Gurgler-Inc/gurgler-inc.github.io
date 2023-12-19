@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.animated{
+    z-index: 100;
+    position: relative;
+    animation-name: swipeLeft;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes swipeLeft {
+    0% {left: 0%; top: 0%; opacity: 1;}
+    100% {left: 100%; top: 100%; opacity: 0;}
+}
+
+@keyframes swipeRight {
+    0% {right: 0%; top: 0%; opacity: 1;}
+    100% {right: 100%; top: 100%; opacity: 0;}
+}
+
+.animatedPass{
+    z-index: 100;
+    position: relative;
+    animation-name: swipeRight;
+    animation-duration: 2000ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}

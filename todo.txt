@@ -1,6 +1,3 @@
-TODO: Finish Main Software Page
-TODO: Add Payment Page
-TODO: Link Payment Page to Membership Page
-TODO: Add about page
-TODO: Create Sitemap
+TTODO: Create Sitemap
 TODO: Add Analytics
+TODO: Make messages work
